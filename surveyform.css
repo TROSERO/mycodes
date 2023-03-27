@@ -16,10 +16,10 @@ h1, p {
     background-attachment: fixed; 
   }
   form {
-    width: 60%;
+    width: 50%;
     margin: auto;
     background-color: rgba(1, 1, 17, 0.8);
-    padding: 1rem;
+    padding: 2rem;
   } 
   label {
     display: block;
@@ -29,15 +29,21 @@ h1, p {
   }
   legend > p {
     display: inline;
-    font-size: 12px; 
+    font-size: 12px;
   }
     
   input, select, textarea {
     width: 100%;
-    margin: 2px;
+    padding: 10px;
+  }
+  .class {
+    padding: 10px;
+    height: 10%;
+    margin-bottom: 2em;
+
   }
   div input, select {
-    height: 22px;
+    height: 28px;
   }
   button {
       text-align: center;
