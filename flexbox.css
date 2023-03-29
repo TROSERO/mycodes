@@ -1,0 +1,20 @@
+.flex-container div {
+    border: 5px solid #f306cb;
+    font-size: 30px;
+    padding: 100px;
+    justify-content: center;
+    background-color: #0c011f;
+    color: #f38ee2;
+    border-radius: 10px;
+}
+* {
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #0c011f;
+}
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 200px 100px;
+}
