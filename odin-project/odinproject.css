@@ -237,8 +237,6 @@ figure {
 figure figcaption {
     width: 200px;
     text-align: center;
-    /* justify-content: center; */
-    /* align-items: center; */
 }
 
 figure img {
@@ -256,7 +254,7 @@ figure img {
 .quote-container {
     background-color: #e5e7eb;
     color: #1f2937;
-    padding: 100px 200px 100px 300px;
+    padding: 100px 300px;
 }
 
 .quote-container h6 {
@@ -276,5 +274,21 @@ figure img {
     font-weight: bolder;
 }
 
+.cta-container {
+    background-color: #f9faf8;
+    padding: 100px 150px;
+}
 
+.cta {
+    background-color: #3882f6;
+    color: #f9faf8;
+    padding: 50px 120px;
+    border-radius: 10px;
+}
+
+.cta > h1 {
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+}
 
