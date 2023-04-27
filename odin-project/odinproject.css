@@ -198,7 +198,13 @@ header .banner {
 
 .btn-primary {
     background-color: #3882f6;
-    color: #e5e7eb;
+    font-family: sans-serif;
+    border-radius: 6px;
+    background-color: #3882f6;
+    border: 2px;
+    color: #f9faf8;
+    padding: 8px 35px;
+    font-size: 18px;
 }
 
 .banner-image {
@@ -284,11 +290,38 @@ figure img {
     color: #f9faf8;
     padding: 50px 120px;
     border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
 }
 
-.cta > h1 {
+.text > h1 {
     font-family: sans-serif;
     font-size: 24px;
     font-weight: bold;
 }
 
+.text > p {
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+
+.btn-secondary {
+    font-family: sans-serif;
+    border-radius: 10px;
+    background-color: #3882f6;
+    border: 2px solid #f9faf8;
+    color: #f9faf8;
+    padding: 0 30px;
+    font-size: 18px;
+}
+
+
+footer {
+    background-color: #1f2937;
+    padding: 40px 0;
+    color: #f9faf8;
+    font-family: sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
