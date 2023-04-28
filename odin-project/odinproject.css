@@ -185,6 +185,7 @@ header .banner {
     font-size: 18px;
     font-family: sans-serif;
     color: #e5e7eb;
+    letter-spacing: 1px;
 }
 
 .btn {
